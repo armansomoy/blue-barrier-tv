@@ -33,6 +33,385 @@ h6 {
 html,
 body {
     scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.section-header {
+    font-weight: 600;
+    color: #434343;
+    padding-bottom: 50px;
+}
+
+.button-css {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 800;
+    padding: 16px 38px;
+    border-radius: 3px;
+    background: #6967fa;
+    text-transform: uppercase;
+    transition: all 0.3s;
+}
+
+.button-css:hover {
+    background-color: transparent;
+    color: #6967fa;
+    border: 1px solid #6967fa;
+
 }
 
 /*===== Common css Ends =====*/
+
+.navbar {
+    padding-top: 15px;
+    transition: all linear .3s;
+    background-color: #fff;
+    height: 110px;
+}
+
+.bg {
+    background: #191919;
+    position: fixed;
+    animation: menu 1s;
+    width: 100%;
+    z-index: 999;
+}
+
+@keyframes menu {
+    from {
+        top: -50px;
+    }
+
+    to {
+        top: 0px;
+    }
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #434343;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 400;
+    transition: all linear .3s;
+    position: relative;
+    padding: 0px 15px;
+}
+
+.navbar-light .navbar-nav .nav-link:after {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #6967fa;
+    opacity: 0;
+    transition: all linear .3s;
+}
+
+.navbar-brand img {
+    width: 100%;
+}
+
+.navbar-light .navbar-nav .nav-link:hover:after {
+    opacity: 1;
+    width: 100%;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #6967fa;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: #6967fa;
+}
+
+.navbar-light .navbar-nav .nav-link.active:after {
+    opacity: 1;
+    width: 100%;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+/*===== navbar part css start =====*/
+
+/*===== banner part css start =====*/
+#banner {
+    background-color: #fff;
+    height: 550px;
+}
+
+.banner_item {
+    padding-bottom: 25px;
+}
+
+
+.banner_item h1 {
+    font-size: 50px;
+    color: #434343;
+    font-weight: 800;
+    padding: 150px 0px 20px 0px;
+}
+
+.banner_item p {
+    font-size: 16px;
+    color: #434343;
+    font-weight: 300;
+    padding-bottom: 35px;
+}
+
+.banner-img {
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+/*===== banner part css ends =====*/
+
+
+/*===== service part css start =====*/
+#service {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #ebebff;
+}
+
+.service-item i {
+    font-size: 48px;
+    color: #555;
+    transition: all linear .3s;
+}
+
+.service-item h3 {
+    font-size: 22px;
+    color: #434343;
+    font-weight: 700;
+    text-transform: capitalize;
+    transition: all linear .3s;
+    padding-top: 24px;
+}
+
+.middle-p {
+    padding: 0px 30px;
+}
+
+.service-item p {
+    font-size: 16px;
+    color: #434343;
+    font-weight: 400;
+    padding-top: 25px;
+    line-height: 24px;
+}
+
+/*===== service part css ends =====*/
+
+
+/*===== pricing part css start =====*/
+#pricing {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.pricing-item {
+    padding: 30px 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px lightgrey;
+    background-color: #fff;
+    transition: all 0.3s;
+}
+
+.pricing-item:hover {
+    background: rgb(247, 195, 255);
+    background: linear-gradient(155deg, rgba(247, 195, 255, 1) 0%, rgba(49, 44, 255, 1) 100%);
+    background-color: rgb(246, 246, 246);
+    -webkit-box-shadow: 0px 0px 22px 6px rgb(0 0 0 / 18%);
+    -moz-box-shadow: 0px 0px 22px 6px rgba(0, 0, 0, 0.18);
+    box-shadow: 0px 0px 22px 6px rgb(0 0 0 / 18%);
+}
+
+.pricing-item:hover p {
+    color: #fff;
+}
+
+.pricing-item:hover h3 {
+    color: #fff;
+}
+
+.pricing-item p {
+    font-size: 16px;
+    color: #080827;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.pricing-item h3 {
+    font-size: 60px;
+    color: #14142b;
+    font-weight: 700;
+    padding-bottom: 40px;
+}
+
+.pricing-item a {
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 800;
+    padding: 16px 38px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    /* transition: all 0.3s; */
+    color: #14142b;
+    box-shadow: 0px 0px 15px lightgrey;
+}
+
+.pricing-item a:hover {
+    color: #14142b;
+    background-color: rgb(246, 246, 246);
+    -webkit-box-shadow: 0px 0px 22px 6px rgb(0 0 0 / 18%);
+    -moz-box-shadow: 0px 0px 22px 6px rgba(0, 0, 0, 0.18);
+    box-shadow: 0px 0px 22px 6px rgb(0 0 0 / 18%);
+}
+
+.pricing-item:hover a {
+    color: #14142b;
+    background-color: rgb(246, 246, 246);
+    -webkit-box-shadow: 0px 0px 22px 6px rgb(0 0 0 / 18%);
+    -moz-box-shadow: 0px 0px 22px 6px rgba(0, 0, 0, 0.18);
+    box-shadow: 0px 0px 22px 6px rgb(0 0 0 / 18%);
+}
+
+/*===== pricing part css ends =====*/
+
+
+/*===== wire-pricing part css start =====*/
+#wire-pricing {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #ebebff;
+}
+
+.wire-pricing-item {
+    padding-left: 25px;
+    padding-top: 50px;
+}
+
+.wire-pricing-item li {
+    list-style: none;
+}
+
+.wire-pricing-item i {
+    float: left;
+    padding-right: 20px;
+    font-size: 16px;
+    color: #434343;
+}
+
+.wire-pricing-item p {
+    font-size: 16px;
+    color: #434343;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.wire-pricing-item span {
+    font-size: 20px;
+    color: #6967fa;
+    font-weight: 700;
+}
+
+.wire-img img {
+    width: 100%;
+}
+
+/*===== wire-pricing part css ends =====*/
+
+
+/*===== faq part css start =====*/
+#faq {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.card {
+    border: none;
+    border-bottom: 1px solid rgba(15, 15, 15, 0.125);
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 15px lightgrey;
+}
+
+.card-header {
+    padding: .75rem 1.25rem;
+    border-bottom: 0px;
+}
+
+.btn-link {
+    font-weight: 400;
+    font-size: 20px;
+    color: #434343;
+    list-style: none;
+}
+
+.btn-link:hover {
+    color: #434343;
+}
+
+.btn-link {
+    text-decoration: none !important;
+}
+
+.btn:hover {
+    text-decoration: none;
+}
+
+.card-body {
+    padding-left: 60px;
+}
+
+.faq-img{
+    padding-left: 100px;
+}
+/*===== faq part css ends =====*/
+
+/*===== footer part css start =====*/
+#footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #191a22;
+}
+
+#footer p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    padding-right: 70px;
+}
+
+#footer h5 {
+    padding-left: 100px;
+}
+
+#footer .footer-btn {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 800;
+    padding: 16px 38px;
+    background: #6967fa;
+    text-transform: uppercase;
+    transition: all 0.3s;
+    border-radius: 50px;
+    border: 1px solid #6967fa;
+}
+
+#footer .footer-btn:hover {
+    background-color: transparent;
+    color: #6967fa;
+    border: 1px solid #6967fa;
+    -webkit-box-shadow: 0px 0px 22px 6px rgb(0 0 0 / 18%);
+    -moz-box-shadow: 0px 0px 22px 6px rgba(0, 0, 0, 0.18);
+    box-shadow: 0px 0px 22px 6px rgb(0 0 0 / 18%);
+}
+
+/*===== footer part css ends =====*/
