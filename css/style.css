@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    text-decoration-style: none;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 0px;
+}
+
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+/*===== Common css Ends =====*/
