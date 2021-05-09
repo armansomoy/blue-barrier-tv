@@ -256,7 +256,6 @@ body {
 
 .pricing-item a {
     font-size: 14px;
-    color: #ffffff;
     font-weight: 800;
     padding: 16px 38px;
     border-radius: 5px;
@@ -369,9 +368,10 @@ body {
     padding-left: 60px;
 }
 
-.faq-img{
+.faq-img {
     padding-left: 100px;
 }
+
 /*===== faq part css ends =====*/
 
 /*===== footer part css start =====*/
@@ -393,7 +393,7 @@ body {
     padding-left: 100px;
 }
 
-#footer .footer-btn {
+.footer-btn {
     font-size: 14px;
     color: #fff;
     font-weight: 800;
@@ -405,7 +405,7 @@ body {
     border: 1px solid #6967fa;
 }
 
-#footer .footer-btn:hover {
+.footer-btn:hover {
     background-color: transparent;
     color: #6967fa;
     border: 1px solid #6967fa;
@@ -414,5 +414,81 @@ body {
     box-shadow: 0px 0px 22px 6px rgb(0 0 0 / 18%);
 }
 
-
 /*===== footer part css ends =====*/
+
+
+/*===== contact-banner part css start =====*/
+#contact-banner {
+    height: 400px;
+}
+
+#contact-banner h2 {
+    font-size: 50px;
+    color: #434343;
+    font-weight: 800;
+    padding-top: 150px;
+}
+
+/*===== contact-banner part css ends =====*/
+
+
+/*===== contact part css ends =====*/
+#contact {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #ebebff;
+}
+
+.contact-img img {
+    width: 90%;
+    padding-top: 200px;
+}
+
+#contact h5 {
+    padding-top: 30px;
+    text-align: center;
+}
+
+#contact label {
+    color: #434343;
+}
+
+#contact input {
+    background-color: #fff;
+    color: #434343;
+}
+
+#contact ::placeholder {
+    color: #434343;
+}
+
+#contact select {
+    background-color: #fff;
+    color: #434343;
+}
+
+#contact textarea {
+    resize: none;
+    color: #434343;
+}
+
+.contact-btn {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 800;
+    background: #6967fa;
+    text-transform: uppercase;
+    transition: all 0.3s;
+    border: 2px solid #6967fa;
+    padding: 12px 45px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 15px lightgrey;
+}
+
+.contact-btn:hover {
+    background-color: transparent;
+    color: #6967fa;
+    border: 2px solid #6967fa;
+    box-shadow: 0px 0px 15px lightgrey;
+}
+/*===== contact part css ends =====*/
