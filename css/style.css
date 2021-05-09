@@ -61,6 +61,10 @@ body {
 
 }
 
+.mobile-device-image {
+    display: none;
+}
+
 /*===== Common css Ends =====*/
 
 .navbar {
@@ -142,13 +146,16 @@ body {
 /*===== banner part css start =====*/
 #banner {
     background-color: #fff;
-    height: 550px;
+    padding-bottom: 80px;
 }
 
 .banner_item {
     padding-bottom: 25px;
 }
 
+.banner-img img {
+    width: 100%;
+}
 
 .banner_item h1 {
     font-size: 50px;
@@ -368,7 +375,8 @@ body {
     padding-left: 60px;
 }
 
-.faq-img {
+.faq-img img {
+    width: 100%;
     padding-left: 100px;
 }
 
@@ -385,7 +393,6 @@ body {
     font-size: 16px;
     font-weight: 400;
     color: #fff;
-    font-family: 'Montserrat', sans-serif;
     padding-right: 70px;
 }
 
@@ -491,4 +498,5 @@ body {
     border: 2px solid #6967fa;
     box-shadow: 0px 0px 15px lightgrey;
 }
+
 /*===== contact part css ends =====*/

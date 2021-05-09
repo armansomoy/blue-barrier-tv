@@ -1,25 +1,71 @@
 /*======== large device =========*/
 @media (min-width: 992px) and (max-width: 1199.98px) {}
 
+
+
+
 /*======== medium device =========*/
-@media (min-width: 768px) and (max-width: 991.98px) {}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .banner-img {
+        padding-top: 100px;
+        padding-left: 0px;
+    }
+
+    .banner_item h1 {
+        font-size: 48px;
+        color: #434343;
+        font-weight: 800;
+        padding: 130px 0px 20px 0px;
+    }
+
+    .service-item h3 {
+        font-size: 20px;
+    }
+
+    .pricing-item {
+        padding: 65px 20px;
+        margin-bottom: 30px;
+    }
+
+    .wire-pricing-item {
+        padding-top: 0px;
+    }
+
+    .wire-pricing-item p {
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+    .card {
+        box-shadow: none;
+        margin-left: -30px;
+    }
+
+    .card-body {
+        padding-left: 30px;
+
+    }
+
+    .faq-img img {
+        width: 100%;
+        padding-left: 16px;
+    }
+
+}
+
+
 
 /*======== small device =========*/
 
-@media (min-width: 576px) and (max-width: 767.98px) {}
-
-/*======== Extra small device =========*/
-
-@media (max-width: 575.98px) {
+@media (min-width: 576px) and (max-width: 767.98px) {
     .navbar-toggler i {
         font-size: 30px;
-        color: #0c0c0c;
+        color: #6967fa;
         outline: 0;
     }
 
     .navbar-light .navbar-toggler {
-        color: rgba(0, 0, 0, .0);
-        border-color: rgba(0, 0, 0, .0);
+        border-color: #6967fa;
     }
 
     .navbar {
@@ -27,7 +73,124 @@
     }
 
     .navbar-nav {
-        background: #191919;
+        background: #444444;
         text-align: center;
+        z-index: 9999;
+    }
+
+    .nav-item {
+        padding: 5px 0px;
+        z-index: 999;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        color: #ebebff;
+    }
+
+    .navbar-light .navbar-nav .nav-link.active {
+        color: #ebebff;
+    }
+
+    .navbar-light .navbar-nav .nav-link:hover {
+        color: #ebebff;
+    }
+
+    .navbar-light .navbar-nav .nav-link:after {
+        background: #ebebff;
+    }
+
+    .banner_item {
+        text-align: center !important;
+    }
+
+    .middle-p {
+        padding: 0px 0px;
+    }
+
+    .service-item {
+        padding: 10px 40px;
+    }
+
+    .pricing-item {
+        padding: 65px 20px;
+        margin-bottom: 30px;
+    }
+
+    .section-header {
+        text-align: center;
+    }
+
+    .faq-img img {
+        padding-left: 0px;
+        padding-bottom: 50px;
+    }
+
+    .web-device-img {
+        display: none;
+    }
+
+    .mobile-device-image {
+        display: block;
+    }
+
+    #footer h5 {
+        padding-top: 30px;
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    #footer p {
+        text-align: center;
+        padding-right: 0px;
+    }
+
+}
+
+
+
+
+
+/*======== Extra small device =========*/
+
+@media (max-width: 575.98px) {
+    .navbar-toggler i {
+        font-size: 30px;
+        color: #6967fa;
+        outline: 0;
+    }
+
+    .navbar-light .navbar-toggler {
+        border-color: #6967fa;
+    }
+
+    .navbar {
+        padding-top: 5px;
+    }
+
+    .navbar-nav {
+        background: #444444;
+        text-align: center;
+        z-index: 9999;
+    }
+
+    .nav-item {
+        padding: 5px 0px;
+        z-index: 999;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        color: #ebebff;
+    }
+
+    .navbar-light .navbar-nav .nav-link.active {
+        color: #ebebff;
+    }
+
+    .navbar-light .navbar-nav .nav-link:hover {
+        color: #ebebff;
+    }
+
+    .navbar-light .navbar-nav .nav-link:after {
+        background: #ebebff;
     }
 }
