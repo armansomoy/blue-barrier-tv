@@ -133,6 +133,7 @@
         display: block;
     }
 
+
     #footer h5 {
         padding-top: 30px;
         padding-left: 0px;
@@ -142,6 +143,11 @@
     #footer p {
         text-align: center;
         padding-right: 0px;
+    }
+
+    .contact-img img {
+        padding-top: 0px;
+        padding-bottom: 80px;
     }
 
 }
@@ -192,5 +198,80 @@
 
     .navbar-light .navbar-nav .nav-link:after {
         background: #ebebff;
+    }
+
+    .banner_item {
+        text-align: center !important;
+    }
+
+    .banner-img {
+        padding-top: 0px;
+        padding-left: 0px;
+    }
+
+    .banner_item h1 {
+        padding: 100px 0px 20px 0px;
+    }
+
+    .middle-p {
+        padding: 0px 0px;
+    }
+
+    .service-item {
+        padding: 10px 30px;
+    }
+
+    .pricing-item {
+        padding: 65px 20px;
+        margin-bottom: 30px;
+    }
+
+    .pricing-item p {
+        font-size: 20px;
+    }
+
+    .wire-pricing-item p {
+        font-size: 14px;
+    }
+
+    .section-header {
+        text-align: center;
+    }
+
+    .faq-img img {
+        padding-left: 0px;
+        padding-bottom: 50px;
+    }
+
+    .web-device-img {
+        display: none;
+    }
+
+    .mobile-device-image {
+        display: block;
+    }
+
+    .btn-link {
+        font-size: 16px;
+        margin-left: -10px;
+    }
+    .card-body {
+        padding: 10px 30px;
+    }
+
+    #footer h5 {
+        padding-top: 30px;
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    #footer p {
+        text-align: center;
+        padding-right: 0px;
+    }
+
+    .contact-img img {
+        padding-top: 0px;
+        padding-bottom: 80px;
     }
 }
